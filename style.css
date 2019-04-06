@@ -1,0 +1,19 @@
+body, html {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background-image: linear-gradient(135deg, #cb60b3 0%,#ad1283 50%,#de47ac 100%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    color: white;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
