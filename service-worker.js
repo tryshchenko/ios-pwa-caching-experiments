@@ -4,7 +4,7 @@ if (workbox) {
     workbox.precaching.precacheAndRoute(
         [
           '/style.css',
-          { url: '/explicit.html', revision: '2' },
+          { url: '/explicit.html', revision: '3' },
         ],
         {
           directoryIndex: null,
