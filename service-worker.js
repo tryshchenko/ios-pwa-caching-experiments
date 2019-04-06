@@ -3,7 +3,7 @@ importScripts('https://storage.googleapis.com/workbox-cdn/releases/4.1.1/workbox
 if (workbox) {
     workbox.precaching.precacheAndRoute(
         [
-          { url: '/index.html', revision: '1' },
+          { url: '/explicit.html', revision: '2' },
         ],
         {
           directoryIndex: null,
